@@ -1,0 +1,63 @@
+.head {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 50px;
+}
+
+.mama {
+    height: 100%;
+    background-color: black;
+    flex-direction: column;
+}
+
+.bigbox {
+    float: center;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    display: inline-table;
+    line-height: 20px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    padding: 15px;
+    justify-content: center;
+}
+
+.box1 {
+    justify-content: center;
+    width: 95%;
+    height: 370px;
+    background-color: rgb(5, 131, 180);
+    display: inline-flex;
+}
+
+.box2 {
+    justify-content: center;
+    width: 95%;
+    height: 370px;
+    background-color: rgb(240, 116, 0);
+    display: inline-flex;
+}
+
+.box3 {
+    justify-content: center;
+    width: 95%;
+    height: 370px;
+    background-color: rgb(255, 51, 0);
+    display: inline-flex;
+}
+
+.last {
+    text-align: center;
+    justify-content: flex-start;
+}
+
+p {
+    color: white;
+}
+
+p a {
+    font-family: fantasy;
+}
